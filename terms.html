@@ -31,7 +31,7 @@
             font-size: 2em;
         }
         .app-name {
-            color: #FF6B35;
+            color: #8C73BF;
             font-weight: 600;
         }
         .last-updated {
@@ -54,8 +54,8 @@
             margin-bottom: 15px;
         }
         .highlight {
-            background: #fff8f5;
-            border-left: 4px solid #FF6B35;
+            background: #f8f5ff;
+            border-left: 4px solid #8C73BF;
             padding: 15px 20px;
             margin: 20px 0;
             border-radius: 0 8px 8px 0;
@@ -67,7 +67,7 @@
             margin-top: 30px;
         }
         a {
-            color: #FF6B35;
+            color: #8C73BF;
         }
     </style>
 </head>
@@ -75,7 +75,7 @@
     <div class="container">
         <h1>Terms of Service</h1>
         <p class="app-name">Morning Proof</p>
-        <p class="last-updated">Last Updated: January 15, 2025</p>
+        <p class="last-updated">Last Updated: January 20, 2026</p>
 
         <p>Please read these Terms of Service ("Terms") carefully before using Morning Proof ("the app", "we", "our", or "us"). By using the app, you agree to be bound by these Terms.</p>
 
@@ -85,9 +85,9 @@
         <h2>2. Description of Service</h2>
         <p>Morning Proof is a habit tracking application that helps users build consistent morning routines through:</p>
         <ul>
-            <li>Photo verification of completed habits</li>
+            <li>AI-powered photo verification of completed habits</li>
             <li>Streak tracking and progress monitoring</li>
-            <li>Optional health data integration</li>
+            <li>Optional health data integration via Apple HealthKit</li>
             <li>Optional app blocking features</li>
         </ul>
 
@@ -120,20 +120,22 @@
             <li>Use the app in any way that could damage or overburden our services</li>
         </ul>
 
-        <h2>6. Photo Verification</h2>
+        <h2>6. AI-Powered Photo Verification</h2>
         <p>When using the photo verification feature:</p>
         <ul>
-            <li>Photos are sent to third-party AI services (OpenAI) for analysis</li>
+            <li>Photos are sent to Anthropic's Claude AI for analysis</li>
             <li>You grant us permission to process these images for verification purposes</li>
+            <li>Photos are not stored after processing and are not used to train AI models</li>
             <li>Do not submit photos containing sensitive, inappropriate, or illegal content</li>
             <li>We reserve the right to reject or flag photos that violate these terms</li>
         </ul>
 
         <h2>7. Health Data</h2>
-        <p>If you choose to connect Apple Health:</p>
+        <p>If you choose to connect Apple HealthKit:</p>
         <ul>
-            <li>You authorize us to access the health data types you approve</li>
-            <li>Health data is used solely for display within the app</li>
+            <li>You authorize us to access the health data types you approve (sleep, steps, workouts)</li>
+            <li>Health data is used solely for display within the app and goal tracking</li>
+            <li>Health data is never transmitted to external servers</li>
             <li>You can revoke access at any time through iOS Settings</li>
         </ul>
 
